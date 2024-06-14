@@ -1,0 +1,80 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+    font-family: var(--font-family);
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+:root {
+    --primary: #0A66C2;
+    --primary-100: #2277c4;
+
+    --secondary: #34A853;
+    --secondary-100: #4eb070;
+
+    --black: #000000;
+    --black-100: #040F0F;
+
+    --gray: #656665;
+    --gray-100: #E8E8E9;
+    --gray-200: #c6cac6;
+
+    --white: #FFFFFF;
+
+    --green: #1AB759;
+    --green-100: #139748;
+
+    --red: #AB353F;
+    --red-100: #8f2a33;
+    --red-200: #FC836D;
+
+
+    --blue: #81AAFF;
+    --blue-100: #4D77FB;
+    --blue-200: #627D98;
+
+
+    --h1: 1.125em;
+    --h2: 1.25em;
+    --h3: 1.625em;
+    --font-family: 'Inter', sans-serif;
+}
+
+.customChip {
+    border-radius: 2rem !important;
+    padding: .2rem 1rem !important;
+    line-height: 100% !important;
+    min-height: 40px !important;
+    height: auto !important;
+}
+
+.unactiveChip {
+    border-color: gray !important;
+    color: gray !important;
+}
+
+.unactiveChip:hover {
+    border-color: inherit !important;
+    color: inherit !important;
+}
+
+.activeChip {
+    border-radius: 2rem !important;
+    padding: .2rem 1rem !important;
+    border-color: #0A66C2 !important;
+    color: #0A66C2 !important;
+}

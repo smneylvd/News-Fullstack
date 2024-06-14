@@ -1,0 +1,125 @@
+.active {
+
+    border: black 1px;
+}
+
+.link {
+    display: block;
+    color: gray;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: black;
+    border: black 5px !important;
+}
+
+.articlesContainer {
+    width: 100%;
+    padding: 2rem 4rem;
+}
+
+.article {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.articleImg {
+    border-radius: 1rem;
+}
+
+@media only screen and (max-width: 1080px) {
+    .accessModal {
+        width: 95%;
+    }
+
+    .article {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .article {
+        width: 100%;
+    }
+
+    .articleImg {
+        width: 100% !important;
+    }
+
+    .articlesContainer {
+        padding: 0;
+        padding: 0 2rem;
+    }
+
+    .accessModal {
+        width: 95%;
+    }
+
+    .mobText {
+        font-size: 1rem !important;
+    }
+
+    .mobMb1 {
+        margin-bottom: 1rem !important;
+    }
+
+    .mobTextL {
+        font-size: 1.5rem !important;
+    }
+
+    .mobTextMd {
+        font-size: 1rem !important;
+    }
+
+    .mobTextSm {
+        font-size: .8rem !important;
+    }
+
+    .mobPl2 {
+        padding-left: 2rem !important;
+    }
+
+    .mobPl1 {
+        padding-left: 1rem !important;
+    }
+
+    .mobPx1 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .article {
+        width: 100%;
+        display: flex;
+    }
+}
+
+/* styles for filter section */
+
+@media only screen and (max-width: 768px) {
+    .filterContainer {
+        width: 100% !important;
+        left: 0 !important;
+        position: fixed !important;
+        bottom: 0 !important;
+    }
+
+    .mobW100 {
+        width: 100% !important;
+    }
+
+    .mobP1 {
+        padding: 1rem !important;
+    }
+
+    .mobPBtn {
+        padding: .5rem .8rem !important;
+    }
+
+    .mobP2 {
+        padding: 2rem !important;
+    }
+}

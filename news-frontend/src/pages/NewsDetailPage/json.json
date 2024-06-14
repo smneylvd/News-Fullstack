@@ -1,0 +1,38 @@
+{
+  "id": 1,
+  "title": "Come On Over, I Just Installed a Pond",
+  "description": "Backyards that feature natural pools trade chlorine for plants, don\u2019t need to be closed for winter and may feature kois with names like Cutie.",
+  "author": "Lia Picard",
+  "original_source_url": "https:\/\/www.nytimes.com\/2024\/05\/25\/style\/natural-pools-ponds.html",
+  "image_url": "https:\/\/static01.nyt.com\/images\/2024\/05\/26\/fashion\/25NATURAL-POOLS-wjzc\/25NATURAL-POOLS-wjzc-mediumThreeByTwo440.jpg",
+  "published_at": "2024-05-25 00:00:00",
+  "created_at": "2024-05-30T11:39:10.000000Z",
+  "updated_at": "2024-05-30T11:39:10.000000Z",
+  "source": {
+    "id": 1,
+    "name": "New York Times",
+    "created_at": "2024-05-30T11:38:47.000000Z",
+    "updated_at": "2024-05-30T11:38:47.000000Z"
+  },
+  "category": {
+    "id": 1,
+    "name": "style",
+    "created_at": "2024-05-30T11:39:10.000000Z",
+    "updated_at": "2024-05-30T11:39:10.000000Z"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "text": "Nice news",
+      "attachments": null,
+      "likes": 0,
+      "dislikes": 0,
+      "user_id": 2,
+      "news_id": 1,
+      "reply_id": null,
+      "deleted_at": null,
+      "created_at": "2024-06-07T16:33:53.000000Z",
+      "updated_at": "2024-06-07T16:33:55.000000Z"
+    }
+  ]
+}

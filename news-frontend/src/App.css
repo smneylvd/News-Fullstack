@@ -1,0 +1,118 @@
+
+[data-variation="modal"] {
+    background-image: url("/src/assets/auth/background.jpg");
+}
+
+.amplify-input,
+.amplify-textarea {
+    border-radius: 10px;
+    /* border-color: ; */
+}
+
+.amplify-button[data-variation="primary"] {
+    background-color: #0145AA !important;
+    border-radius: 5px;
+}
+
+.amplify-button[data-variation="link"] {
+    color: #0145AA;
+}
+
+.amplify-tabs-item[data-spacing="equal"] {
+    color: #0145AA;
+}
+
+.amplify-tabs-item[data-state="active"] {
+    border-top-color: #003080;
+}
+
+[data-amplify-authenticator] [data-amplify-router] {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+[data-amplify-authenticator] [data-amplify-container] {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10rem;
+    width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E8E8E9;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: lightgray;
+}
+
+.diploma-navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+.menu-icon {
+    display: none;
+}
+
+.diploma-logo {
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.diploma-btn-container {
+    margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .diploma-navbar {
+    }
+
+    .diploma-logo {
+        margin: 0;
+    }
+
+    .diploma-navbar-item {
+        display: none !important;
+    }
+
+    .diploma-auth-btn span {
+        margin: 0 !important;
+    }
+
+    .diploma-btn-container {
+        margin-right: .5rem;
+    }
+
+    .diploma-auth-btn {
+        display: block !important;
+        border-radius: 5rem !important;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: 1.5rem;
+        width: 2.5rem;
+    }
+}

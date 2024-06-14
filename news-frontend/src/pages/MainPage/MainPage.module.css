@@ -1,0 +1,38 @@
+.contentText {
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    .contentText {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1.5rem;
+        margin-top: 0;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .sliderMobile {
+        overflow-x: scroll;
+        width: 100%;
+        justify-content: start !important;
+        padding: 0 1rem  !important;
+        -ms-overflow-style: none !important; /* IE and Edge */
+        scrollbar-width: none !important; /* Firefox */
+    }
+
+    .sliderMobile ::-webkit-scrollbar, ::-webkit-scrollbar-thumb  {
+        display: none !important;
+        width: .5em !important;
+    }
+
+    .dMobileNone {
+        display: none;
+
+    }
+
+
+}
